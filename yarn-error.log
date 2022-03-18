@@ -1,0 +1,44 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.17_2/libexec/bin/yarn.js start
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/comfortappiah/Desktop/backend/http-server/package.json: Unexpected token / in JSON at position 166
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+  	"name": "http-server",
+  	"version": "1.0.0",
+  	"description": "A node server with http package ",
+  	"main": "index.js",
+  	"author": "nana adjowa",
+  	"license": "MIT",
+  	// "scripts": {
+  	// 	"start": "node index.js"
+  	// },
+  	"scripts": {
+  		"start": "node index.js"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
